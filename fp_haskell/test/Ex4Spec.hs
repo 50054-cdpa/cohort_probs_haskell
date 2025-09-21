@@ -14,7 +14,7 @@ spec = do
         let result = flatten [[1], [2], [3]] 
             expected = [1,2,3]
         in result `shouldBe` expected        
-    it "test ex4: flatten [['a'],['b'],['c'],['d'] == ['a'..'d']" $
+    it "test ex4: flatten [['a'],['b'],['c'],['d']] == ['a'..'d']" $
         let result = flatten [['a'],['b'],['c'],['d']] 
             expected =  ['a'..'d']
         in result `shouldBe` expected
