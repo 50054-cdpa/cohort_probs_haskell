@@ -52,7 +52,7 @@ data Fraction = Fraction Int Int
 
 # Exercise 2
 
-Define a polymoprhic quicksort function which makes use of `Ord` type class context.
+Define a polymorphic quicksort function which makes use of `Ord` type class context.
 
 
 ```hs
